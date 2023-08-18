@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.P-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.parent-section-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.image img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.P-navbar-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-list-content ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-list-content ul li{
+    list-style: none;
+    padding: 0px 14px;
+}
+.c-list-content ul li a{
+    text-decoration: none;
+}
+
+.child-content{
+    display: flex;
+    flex-direction: column;
+   width: 50%;
+
+}
+.image{
+    display:block ;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.label{
+    border:solid 1px #f00 ;
+    border-radius: 4px;
+    padding: 2px 8px;
+    color: #ff2424;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 14px;
+}
+.shortdescription{
+    margin-bottom: 24px;
+}
+.CTA-sectionone a{
+    background: #8a1de9;
+    border-radius: 8px;
+    padding: 12px 32px;
+    color: #ffffff;
+    width: fit-content;
+   text-decoration: none;
+   margin-top: 14px !important;
+   margin-bottom: 14px !important;
+}
+
+.child-content h1{
+    margin-bottom: 14px;
+}
